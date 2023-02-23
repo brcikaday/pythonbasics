@@ -7,3 +7,5 @@ print(second_student)
 # adding an item to a list
 Names_of_student.append("fred")
 print(Names_of_student)
+# how to push code to github 
+# git add . , git commit -m "", git push
