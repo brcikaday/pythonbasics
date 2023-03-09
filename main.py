@@ -10,6 +10,28 @@ print(Names_of_student)
 # how to push code to github 
 # git add . , git commit -m "", git push
 
+#creating a dictionary
+joels_info = {
+            "name": "joel",
+              "age": 13,
+              "hobbies": {
+                "outdoor": ["running","ampe"],
+                "indoor": ["ludo","teletabies"]
+                }
+}
+print(joels_info)
+
+#selecting item in a dictionary
+hobbies=joels_info["hobbies"]
+print(hobbies)
+outdoor=hobbies["outdoor"]
+print(outdoor)
+
+# asking for an input
+age=input("what is your age?\n")
+print(age)
+
+
 students_grade={}
 #adding to a dictionary
 students_grade["mike"]="A"
